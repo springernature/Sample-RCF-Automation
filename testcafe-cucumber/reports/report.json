@@ -1,0 +1,211 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Item Based Radio interactions",
+    "line": 2,
+    "id": "item-based-radio-interactions",
+    "tags": [
+      {
+        "name": "@radio",
+        "line": 1
+      },
+      {
+        "name": "@viewer",
+        "line": 1
+      },
+      {
+        "name": "@item",
+        "line": 1
+      }
+    ],
+    "uri": "features/ItemRadio.feature",
+    "elements": [
+      {
+        "id": "item-based-radio-interactions;loading-item-based-radio-interactions",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Loading item based radio interactions",
+        "tags": [
+          {
+            "name": "@radio",
+            "line": 1
+          },
+          {
+            "name": "@viewer",
+            "line": 1
+          },
+          {
+            "name": "@item",
+            "line": 1
+          },
+          {
+            "name": "@RCF-6342",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the RCF Viewer on activity page",
+            "match": {
+              "location": "features/step_definitions/LoadActivity.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on item 1 in activity page",
+            "match": {
+              "location": "features/step_definitions/LoadActivity.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1683000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "item-based-radio-interactions;checking-that-an-item-radio-list-is-compatible-with-roman-horizontal-ordered-lists",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Checking that an Item Radio list is compatible with roman horizontal ordered lists",
+        "tags": [
+          {
+            "name": "@radio",
+            "line": 1
+          },
+          {
+            "name": "@viewer",
+            "line": 1
+          },
+          {
+            "name": "@item",
+            "line": 1
+          },
+          {
+            "name": "@RCF-6342",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I open the RCF Viewer on activity page",
+            "match": {
+              "location": "features/step_definitions/LoadActivity.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click next item 4 times",
+            "match": {
+              "location": "features/step_definitions/LoadActivity.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "roman horizontal ordered lists should be displayed",
+            "match": {
+              "location": "features/step_definitions/LoadActivity.js:19"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 26000000,
+              "error_message": "Error: ActionSelectorError {\n  code: 'E23',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: '/Users/rao08/Sample-RCF-Automation/features/step_definitions/LoadActivity.js',\n    lineNum: 19,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite]\n    ],\n    isV8Frames: true\n  },\n  selectorName: 'selector',\n  errMsg: 'Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.',\n  originError: [Cannot prepare tests due to an error.\n  \n  Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.] {\n    code: 'E1022',\n    data: [ 'undefined' ],\n    rawMessage: 'Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.',\n    callsite: null,\n    [Symbol(originalCallSite)]: [\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {}\n    ],\n    [Symbol(mutatedCallSite)]: [\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}\n    ]\n  }\n}\n    at /Users/rao08/Sample-RCF-Automation/node_modules/cucumber/lib/user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (/Users/rao08/Sample-RCF-Automation/node_modules/cucumber/lib/user_code_runner.js:18:103)\n    at _throw (/Users/rao08/Sample-RCF-Automation/node_modules/cucumber/lib/user_code_runner.js:20:291)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
