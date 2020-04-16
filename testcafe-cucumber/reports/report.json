@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13587000000
+              "duration": 13652000000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1741000000
+              "duration": 1279000000
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1683000000
+              "duration": 910000000
             }
           },
           {
@@ -90,7 +90,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -139,7 +139,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12600000000
+              "duration": 15375000000
             }
           },
           {
@@ -152,7 +152,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 726000000
+              "duration": 606000000
             }
           },
           {
@@ -165,7 +165,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2349000000
+              "duration": 2006000000
             }
           },
           {
@@ -178,8 +178,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 26000000,
-              "error_message": "Error: ActionSelectorError {\n  code: 'E23',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: '/Users/rao08/Sample-RCF-Automation/features/step_definitions/LoadActivity.js',\n    lineNum: 19,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite]\n    ],\n    isV8Frames: true\n  },\n  selectorName: 'selector',\n  errMsg: 'Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.',\n  originError: [Cannot prepare tests due to an error.\n  \n  Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.] {\n    code: 'E1022',\n    data: [ 'undefined' ],\n    rawMessage: 'Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.',\n    callsite: null,\n    [Symbol(originalCallSite)]: [\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {}\n    ],\n    [Symbol(mutatedCallSite)]: [\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}\n    ]\n  }\n}\n    at /Users/rao08/Sample-RCF-Automation/node_modules/cucumber/lib/user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (/Users/rao08/Sample-RCF-Automation/node_modules/cucumber/lib/user_code_runner.js:18:103)\n    at _throw (/Users/rao08/Sample-RCF-Automation/node_modules/cucumber/lib/user_code_runner.js:20:291)"
+              "duration": 23000000,
+              "error_message": "Error: ActionSelectorError {\n  code: 'E23',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: '/Users/rao08/Sample-RCF-Automation/testcafe-cucumber/features/step_definitions/LoadActivity.js',\n    lineNum: 19,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite],\n      [CallSite]\n    ],\n    isV8Frames: true\n  },\n  selectorName: 'selector',\n  errMsg: 'Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.',\n  originError: [Cannot prepare tests due to an error.\n  \n  Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.] {\n    code: 'E1022',\n    data: [ 'undefined' ],\n    rawMessage: 'Selector is expected to be initialized with a function, CSS selector string, another Selector, node snapshot or a Promise returned by a Selector, but undefined was passed.',\n    callsite: null,\n    [Symbol(originalCallSite)]: [\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {}\n    ],\n    [Symbol(mutatedCallSite)]: [\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}, CallSite {},\n      CallSite {}\n    ]\n  }\n}\n    at /Users/rao08/Sample-RCF-Automation/testcafe-cucumber/node_modules/cucumber/lib/user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (/Users/rao08/Sample-RCF-Automation/testcafe-cucumber/node_modules/cucumber/lib/user_code_runner.js:18:103)\n    at _throw (/Users/rao08/Sample-RCF-Automation/testcafe-cucumber/node_modules/cucumber/lib/user_code_runner.js:20:291)"
             }
           },
           {
@@ -201,7 +201,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ]
