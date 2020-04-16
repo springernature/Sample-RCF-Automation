@@ -12,9 +12,8 @@
     "url": ""
   },
   "scripts": {
-    
     "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
-    "test1": "./node_modules/cucumber/bin/cucumber-js",
+    "test": "./node_modules/cucumber/bin/cucumber-js",
     "test-report": "./node_modules/cucumber/bin/cucumber-js --format json:./reports/report.json",
     "test-chrome": "./node_modules/cucumber/bin/cucumber-js --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
     "test-ie": "./node_modules/cucumber/bin/cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
@@ -43,7 +42,6 @@
     "eslint-config-google": "^0.9.1",
     "gherkin-testcafe": "^2.5.0",
     "testcafe": "^1.8.4",
-    "testcafe-browser-provider-browserstack": "^1.13.0-alpha.1",
     "testcafe-cucumber-steps": "^1.8.4"
   }
 }

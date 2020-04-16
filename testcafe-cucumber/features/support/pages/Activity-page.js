@@ -8,7 +8,7 @@ function select(selector) {
 
 exports.activity = {
     url: function() {
-        return 'http://localhost:8888/rcf/viewer/index.php#/L0/U001/AS03';
+        return 'http://localhost:8888/rcf/viewer/index.php#/L0/U001/AS03/A01';
        
     },
     
